@@ -1,6 +1,6 @@
 .form{
     height: 680px;
-    background-image: url(src/img/bg2.jpg);
+    background-image: url(/pulse/src/img/bg2.jpg);
     background-repeat: no-repeat;
     background-size: auto;
     &_title{
@@ -43,6 +43,9 @@
                 margin-bottom: 30px;
             }
 
+        }
+        &_mt25 {
+            margin-top: 25px;
         }
     }
 }

@@ -9,8 +9,9 @@
     font-weight: 500;
     text-transform: uppercase;
     &:hover{
-        color: aqua;
-        
+        color: rgb(255, 255, 255);
+        box-shadow: 1px 10px 30px #6b6b6b;
+        border: none;
     }
     &_main {
         margin-top: 67px;
@@ -30,4 +31,5 @@
         border-radius: 5px;
         font-size: 14px;
     }
+    
 }
