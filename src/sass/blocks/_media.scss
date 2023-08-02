@@ -1,0 +1,149 @@
+/* Загальні стилі для секції */
+.catalog {
+    padding: 20px;
+  }
+  .tab-content{
+    display: flex;
+  }
+  /* Додатковий контроль над розміщенням табів і контентом */
+  .catalog_tabs {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .catalog__tab {
+    list-style: none;
+  }
+  
+  /* Розмір елементів на малих екранах */
+  @media (max-width: 768px) {
+    .catalog_tabs {
+      flex-direction: column;
+    }
+    
+    .catalog__tab {
+      margin-bottom: 10px;
+    }
+  }
+  
+  /* Розмір елементів на дуже малих екранах */
+  @media (max-width: 576px) {
+    .catalog_tabs {
+      flex-direction: column;
+    }
+    
+    .catalog__tab {
+      margin-bottom: 5px;
+    }
+    
+    .catalog-item {
+      margin-bottom: 15px;
+    }
+  }
+  @media(max-width: 1024px){
+    .carousel {
+        display: none !important;
+    }
+    .catalog_tabs{
+        justify-content: center;
+    }
+  }
+  @media(max-width: 780px){
+    .header{
+        padding-top: 30px;
+        width: 620px;
+        left: 75px;
+        top: 0px;
+        position: absolute;
+    }
+    .advantages__wrapper{
+        display: block;
+        padding: 0 168px ;
+    }
+    .advantages__item{
+       padding-top: 20px;
+        margin:0 auto;
+    }
+    .form{
+        height: 740px;
+    }
+    .form_descr{
+        padding-top: 60px;
+    }
+  }
+  @media(max-width: 426px){
+    .header{
+        display: none;
+    }
+    .promo__header{
+        text-align:center;
+         line-height: inherit;
+    }
+    .promo__subheader{
+        text-align:center;
+        line-height: inherit;
+    }
+    .promo__icons{
+        width: 400px;
+    }
+    .advantages__wrapper{
+        display: block;
+        padding: 0 95px;
+    }
+    .form_descr{
+        padding-top: 10px;
+    }
+  }
+  @media(max-width: 376px){
+    .promo__icons{
+        width: 350px;
+    }
+    .advantages__wrapper{
+        padding: 0px 60px;
+    }
+    .form{
+        .feed-form{
+            margin-top: 20px;
+        }
+    }
+    .catalog__tab{
+        margin-bottom: 30px;
+    }
+    .catalog_tabs {
+        flex-direction: column;
+      }
+    .catalog_item{
+        flex-direction: column;
+        display: flex;
+    }  
+  }
+  @media(max-width: 321px){
+    .promo__wrapper{
+        margin-top: 0;
+    }
+    .promo__header{
+        color: #fcfcfc;
+        font-size: 35px;
+        font-weight: 700;
+        text-transform: uppercase;
+    }
+    .promo__icons{
+        width: 310px;
+    }
+    .advantages__wrapper{
+        padding: 0 20px;
+    }
+    .catalog{
+        padding: 0;
+    }
+    .catalog__wrapper{
+        margin: 50px 0 0 0;
+    }
+    .catalog_item{
+        flex-direction: column;
+        display: flex;
+    }  
+    .form_title{
+        padding-top: 50px;
+    }
+  }
